@@ -2,7 +2,7 @@
 Here I keep track of the setup and config steps on raspberry pi hardware in use at home
 
 ## OS
-Below setup is based on raspberry pi buster, with desktop, without recommended software.
+Below setup is based on [raspbian buster](https://www.raspberrypi.org/downloads/raspbian/), with desktop (without recommended software).
 
 ## Changing the hostname
 I like to name my hosts after bread (because good bread is awesome). My raspi4 will therefore be named `panino`.
