@@ -4,6 +4,9 @@ Here I keep track of the setup and config steps on raspberry pi hardware in use 
 ## OS
 Below setup is based on [raspbian buster](https://www.raspberrypi.org/downloads/raspbian/), with desktop (without recommended software). Just follow the instructions on the website to create a bootable sd-card.
 
+## Disabling no-password-policy for sudoers
+Because, let's be honest, this is just dangerous. See [no-no-pw-sudo.md](no-no-pw-sudo.md)
+
 ## Changing the hostname
 I like to name my hosts after bread (because good bread is awesome). My raspi4 will therefore be named `panino`.
 see [hostname.md](hostname.md) for detailed steps.
