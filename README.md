@@ -6,7 +6,6 @@ Below setup is based on [raspbian buster](https://www.raspberrypi.org/downloads/
 
 ## Disabling no-password-policy for sudoers
 Because, let's be honest, this is just dangerous. See [no-no-pw-sudo.md](no-no-pw-sudo.md) 
-TODO!!
 
 ## Changing the hostname
 I like to name my hosts after bread (because good bread is awesome). My raspi4 will therefore be named `panino`.
