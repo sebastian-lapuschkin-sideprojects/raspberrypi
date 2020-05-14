@@ -24,4 +24,4 @@ sudo reboot
 ```
 
 ## CONTINUE HERE: Auto-mounting and sharing an external disk
-TODO. hd-idle to save energy and prolong life expectancy of  disk
+TODO. hd-idle to save energy and prolong life expectancy of disk. 2TB disk. Nextcloud. also caching and logging of pi-hole. consider rebooting once a week or so using cron jobs.
