@@ -4,7 +4,7 @@ Here I keep track of the setup and config steps on raspberry pi hardware in use 
 ## OS
 Below setup is based on [raspbian buster](https://www.raspberrypi.org/downloads/raspbian/), with desktop (without recommended software). Just follow the instructions on the website to create a bootable sd-card.
 
-## Disabling no-password-policy for sudoers
+## Disabling no-password-policy for sudo'ers
 Because, let's be honest, this is just dangerous. See [no-no-pw-sudo.md](no-no-pw-sudo.md) 
 
 ## Changing the hostname
@@ -23,5 +23,11 @@ Now reboot the machine using
 sudo reboot
 ```
 
-## CONTINUE HERE: Auto-mounting and sharing an external disk
-TODO. hd-idle to save energy and prolong life expectancy of disk. 2TB disk. Nextcloud. also caching and logging of pi-hole. consider rebooting once a week or so using cron jobs.
+## Auto-mounting and sharing an external disk
+As a high capacity storage solution, I'd like to permanently connect (and automatically mount) a [portable USB hard disk](https://shop.westerndigital.com/de-de/products/portable-drives/wd-elements-portable-usb-3-0-hdd#WDBUZG0010BBK-WESN).
+In short, this requires the creation of a mount point, and the configuration of the `/etc/fstab` file. The necessary steps can be found in [mount-external-disk.md](mount-external-disk.md).
+
+The external disk I have connected and had at my disposal was a conventional HDD with physically moving parts, i.e. a spinning disk. In order to minimize energy consumption and prolong the life expectancy of the drive, I have set the disk up to enter an "idle" status after a certain time of inactivity. See [hd-idle.md](hd-idle.md) for details.
+
+## FUTURE CONSIDERATIONS.
+Nextcloud. consider rebooting once a week or so using cron jobs: also caching and logging of pi-hole
