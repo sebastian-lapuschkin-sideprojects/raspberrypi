@@ -18,10 +18,7 @@ To this end, I install [pi-hole](https://pi-hole.net/) as a DHCP- and DNS server
 
 Next, I disabled the DHCP-server functionality in my WiFi router (which should be possible in any router provided by ISPs) via the router's web interface, and configured static network settings for the RasPi for it to take control over the local network. See [static-network-settings.md](static-network-settings.md) for details.
 
-Now reboot the machine using
-```
-sudo reboot
-```
+Now reboot the machine using `sudo reboot`.
 
 ## Auto-mounting and sharing an external disk
 As a high capacity storage solution, I'd like to permanently connect (and automatically mount) a [portable USB hard disk](https://shop.westerndigital.com/de-de/products/portable-drives/wd-elements-portable-usb-3-0-hdd#WDBUZG0010BBK-WESN).
