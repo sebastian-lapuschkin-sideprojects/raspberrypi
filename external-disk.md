@@ -50,3 +50,4 @@ PARTUUID="f4567076-27be-4fef-9832-273b17c419f5" /mnt/disk ext4 defaults,auto,use
 Note the added `x-systemd.device-timeout=10` causes the RasPi to only wait for 10 seconds for the disk to react on bootup, instead of the default 90 seconds, which shortens the boot time of your raspberry pi considerbly should you choose to keep the drive disconnected.
 
 Now `sudo reboot` and verify the disk auto-mounts by executing `ls -a /mnt/disk`.
+If it did not work for you, make sure you used *your own data*, not mine.
