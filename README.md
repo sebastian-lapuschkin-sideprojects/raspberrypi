@@ -22,9 +22,9 @@ Now reboot the machine using `sudo reboot`.
 
 ## Auto-mounting and sharing an external disk
 As a high capacity storage solution, I'd like to permanently connect (and automatically mount) a [portable USB hard disk](https://shop.westerndigital.com/de-de/products/portable-drives/wd-elements-portable-usb-3-0-hdd#WDBUZG0010BBK-WESN).
-In short, this requires the creation of a mount point, and the configuration of the `/etc/fstab` file. The necessary steps can be found in [mount-external-disk.md](mount-external-disk.md).
+In short, this requires the creation of a mount point, and the configuration of the `/etc/fstab` file. The necessary steps can be found in [external-disk.md](external-disk.md).
 
-The external disk I have connected and had at my disposal was a conventional HDD with physically moving parts, i.e. a spinning disk. In order to minimize energy consumption and prolong the life expectancy of the drive, I have set the disk up to enter an "idle" status after a certain time of inactivity. See [hd-idle.md](hd-idle.md) for details.
+The external disk I have connected and had at my disposal was a conventional HDD with physically moving parts, i.e. a spinning disk. In order to minimize energy consumption and prolong the life expectancy of the drive, I have set the disk up to enter an "idle" status after a certain time of inactivity. See [disk-standby.md](disk-standby.md) for details.
 
 ## FUTURE CONSIDERATIONS.
 Nextcloud. consider rebooting once a week or so using cron jobs: also caching and logging of pi-hole
