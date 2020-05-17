@@ -26,7 +26,7 @@ NextCloudPi Activation
 
 Your NextCloudPi user is ncp
 
-Your NextCloudPi password is 6jN8Jy1A7p3ODQSxw+6JGHcSyUhB6XmtCX3uHfBfj+k
+Your NextCloudPi password is VWL4nNbiIKz7H+5P5H8U1oJC8ziFAUAA9HhTJXfzAYw
   
 Save this password in order to access to the NextCloudPi web interface at https://nextcloudpi.local:4443
 
@@ -37,7 +37,7 @@ This password can be changed using 'nc-passwd'
 
 Your NextCloud user is ncp
 
-Your Nextcloud password is jb+p5DV1xCP6SlIYXbC3emwXexs0AbC5wwtvjO/w8Sk
+Your Nextcloud password is nT+OH9BsKc8/fPpLDGlagPlffH7AqZSy8laO/z543PI
 
 Save this password in order to access NextCloud https://nextcloudpi.local
 
