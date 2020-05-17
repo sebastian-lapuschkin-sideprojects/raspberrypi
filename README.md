@@ -2,7 +2,7 @@
 Here I keep track of the setup and config steps on raspberry pi hardware in use at home
 
 ## OS
-Below setup is based on [raspbian buster](https://www.raspberrypi.org/downloads/raspbian/), with desktop (just in case), without recommended software. Just follow the instructions on the website to create a bootable sd-card.
+Below setup is based on [raspbian buster](https://www.raspberrypi.org/downloads/raspbian/), with desktop (just in case), without recommended software. Just follow the instructions on the website to create a bootable sd-card, using the [Raspberry Pi Imager](https://www.raspberrypi.org/downloads/) for your OS. In order to enable ssh right out of the box, create an empty file called `ssh` in the `/boot`partition on the sd card you just created. 
 
 ### Disabling no-password-policy for sudo'ers
 Because, let's be honest, this is just dangerous. See [no-no-pw-sudo.md](no-no-pw-sudo.md) 
