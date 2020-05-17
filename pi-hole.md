@@ -30,5 +30,5 @@ and replace the port value with (e.g.) `8017`. The line should now read
 server.port                 = 8017
 ``` 
 
-Now `sudo reboot` your RasPI. The pi-hole admin dashboard should shortly be available via `http://panino.local:8017/admin/`
+Now `sudo reboot` your RasPI. The pi-hole admin dashboard should shortly be available via `http://panino.local:8017/admin/`, and the installation of your nextcloud server in [nextcoudpi.md](nextcloudpi.md) should work out without conflicts.
 
