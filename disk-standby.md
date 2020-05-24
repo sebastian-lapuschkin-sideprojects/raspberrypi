@@ -26,5 +26,5 @@ Here, the value after `-i` specifies the time in seconds after which an idle dis
 ```
 HD_IDLE_OPTS="-i 0 -a sda -i 300 -a sdb -i 900"
 ```
-Consider removing the downloaded/extracted folder with `rm -r hd-idle`.
+Consider removing the downloaded/extracted folder and stuff with `rm -r hd-idle*`.
 Now call `sudo service hd-idle restart` or `sudo reboot` to enable hd-idle as a service.
