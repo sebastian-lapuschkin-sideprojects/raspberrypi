@@ -5,8 +5,7 @@ Here I keep track of the setup and config steps on raspberry pi hardware in use 
 Below setup is based on [raspbian buster](https://www.raspberrypi.org/downloads/raspbian/), with desktop (just in case), without recommended software. Just follow the instructions on the website to create a bootable sd-card, using the [Raspberry Pi Imager](https://www.raspberrypi.org/downloads/) for your OS. In order to enable ssh right out of the box, create an empty file called `ssh` in the `/boot`partition on the sd card you just created. 
 
 ### Basics
-In your first ssh session, enter `sudo raspi-config` and first enter option `8` to update the raspi-config tool if possible. Then, enter option `1` to change the default password for user `pi`. Interact as instructed. Optionally enter menu points `2` to change the hostname connect to your local WiFi. Exit the configuration tool, reboot and re-connect via `ssh`.
-
+In your first ssh session, enter `sudo raspi-config` and first enter option `8` to update the raspi-config tool if possible. Then, enter option `1` to change the default password for user `pi`. Interact as instructed. Optionally enter menu points `2` to change the hostname connect to your local WiFi. Exit the configuration tool, reboot and re-connect via `ssh`. After having logged in again, type `nano .bashrc` and enable some QoL features as the `ll` alias, to your liking.
 
 ### Disabling no-password-policy for sudo'ers
 Because, let's be honest, this is just dangerous. See [no-no-pw-sudo.md](no-no-pw-sudo.md) 
