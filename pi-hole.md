@@ -13,7 +13,6 @@ Also monitor `Network` from time to time, to figure out which network devices ar
 The latter ones might have custom/manual DNS configurations in place.
 Note that some devices may take a while to adapt to pi-hole, e.g. until their WAN lease must be renewed. Rebooting those devices will in most cases trigger a WAN lease renewal. *Any* secondary DHCP server on the network broadcasting/or alternative DNS information (be that a DHCPv6-server baked into your router you can not deactivate, as in my case, or DNS info hardcoded into some of your apps) may allow ads or blocked content to bypass your pi-hole.
 
-**CURRENT ATTEMPT: NOT INSTALLING LIGHTTDP**
 Note that above call / the pi-hole installation sets up [lighttpd](https://www.lighttpd.net/) as a lightweight web server, through which you just accessed the pi-hole dashboard. Note that by default, lighttpd listens on port 80, which will cause conflicts with apache2, the web server installed and managed in context of the [nextcloud(pi) installation](nextcloudpi.md).
 
 As you will probably interact with the pi-hole dashboard --- after a (first and occasional) setup of your black- and whitelists --- way less than with the nextcloud web interface, you should exchange the default server port for lighttpd to some other not yet reserved. Enter the following command to configuer lighttpd:
@@ -26,9 +25,9 @@ now look for
 ```
 server.port                 = 80
 ```
-and replace the port value with (e.g.) `8017`. The line should now read
+and replace the port value with (e.g.) `9969`. The line should now read
 ```
-server.port                 = 8017
+server.port                 = 9969
 ``` 
 
 Now `sudo reboot` your RasPI. The pi-hole admin dashboard should shortly be available via `http://panino.local:8017/admin/`, and the installation of your nextcloud server in [nextcoudpi.md](nextcloudpi.md) should work out without conflicts.
