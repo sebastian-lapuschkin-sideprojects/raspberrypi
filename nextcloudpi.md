@@ -84,3 +84,5 @@ and save the file. This will for now (until we decide otherwise at some point) a
 Now use your browser to access [https://panino.local:4443](https://panino.local:4443) to setup the database and data storage.
 
 **CONTINUE HERE**
+
+**NOTE** above tutorial worked in the first setup, never finished "activating" in follow-up attempts. I had, after installation, to remove dnsmasq and dnsmasq-base, use the ncp-config too to completely wipe nextcloud and reinstall, then nc-init from inside the tool, set trusted domains and move the datafolder to the external disk. this worked. and do not use the god damn nextcloud wizard.
