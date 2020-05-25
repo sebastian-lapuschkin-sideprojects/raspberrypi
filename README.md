@@ -43,7 +43,7 @@ In short, this requires the creation of a mount point, and the configuration of 
 The external disk I have connected and had at my disposal was a conventional HDD with physically moving parts, i.e. a spinning disk. In order to minimize energy consumption and prolong the life expectancy of the drive, I have set the disk up to enter an "idle" status after a certain time of inactivity. See [disk-standby.md](disk-standby.md) for details.
 
 ### Installing Nextcloud
-Now, let's install Nextcloud(pi) and use it as an easy to access file server to the local network. Follow the instructions in[nextcloudpi.md](nextcloudpi.md).
+Now, let's install Nextcloud(pi) and use it as an easy to access file server to the local network. Follow the instructions in [nextcloudpi.md](nextcloudpi.md).
 
 ### FUTURE CONSIDERATIONS.
 consider rebooting once a week or so using cron jobs: also caching and logging of pi-hole
