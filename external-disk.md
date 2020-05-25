@@ -25,7 +25,7 @@ UUID                                 NAME        FSTYPE  SIZE MOUNTPOINT LABEL  
 
 Note that the mount points `/` and `/boot` are used by the PI itself. `sda` thus is my external disk drive and `sda1` its first and only partition, which I have formatted beforehand to an `ext4` file system format. No extra file system drivers need to be installed for `ext4`.
 
-Let us now (manually) mount the disk with `sudo mount /dev/sda /mnt/disk`
+Let us now (manually) mount the disk with `sudo mount /dev/sda1 /mnt/disk`
 and verify the disk has been mounted successfully by listing its contents with `ls -a /mnt/disk`.
 If you can see your files on the drive, or at least `.` and `..` in case the drive is empty, the disk has been mounted with success.
 
