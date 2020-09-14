@@ -46,4 +46,5 @@ The external disk I have connected and had at my disposal was a conventional HDD
 Now, let's install Nextcloud(pi) and use it as an easy to access file server to the local network. Follow the instructions in [nextcloudpi.md](nextcloudpi.md).
 
 ### FUTURE CONSIDERATIONS.
-consider rebooting once a week or so using cron jobs: also caching and logging of pi-hole
+- consider rebooting once a week or so using cron jobs: also caching and logging of pi-hole
+- Set Up miniconda e.g. as described in https://schmidt-feldberg.de/anaconda-3-auf-raspberry-pi-3-b-installieren/
