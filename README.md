@@ -48,6 +48,5 @@ Now, let's install Nextcloud(pi) and use it as an easy to access file server to 
 ### Setting up a public network shared folder using Samba
 In order to use the pi as a hub for sharing files conveniently, we set it up as a sambanserver in [samba.md](samba.md)
 
-### FUTURE CONSIDERATIONS.
-- consider rebooting once a week or so using cron jobs: also caching and logging of pi-hole
-- Set Up miniconda e.g. as described in https://schmidt-feldberg.de/anaconda-3-auf-raspberry-pi-3-b-installieren/
+### Enabling hitch-less streaming playback on the raspberry pi 4b
+Just follow [streaming.md](streaming.md)
