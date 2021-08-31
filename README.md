@@ -48,5 +48,8 @@ Now, let's install Nextcloud(pi) and use it as an easy to access file server to 
 ### Setting up a public network shared folder using Samba
 In order to use the pi as a hub for sharing files conveniently, we set it up as a sambanserver in [samba.md](samba.md)
 
-### Enabling hitch-less streaming playback on the raspberry pi 4b
+### Enabling hitch-less streaming playback on the raspberry Pi 4b
 Just follow [streaming.md](streaming.md)
+
+### Slightly overclock the Pi for even smoother media playback.
+Hitches and freezes are now minimized, but we can still safely crank up the performance a bit. The process is quite easy, and the results are (not) noticable. Have a look at [overclock.md](overclock.md)
